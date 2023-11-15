@@ -10,7 +10,7 @@ from main.views import edit_product
 from main.views import delete_product
 
 app_name = 'main'
-
+#Buat url untuk setiap view yang dibuat
 urlpatterns = [
     path('', show_main, name='show_main'),
     path('create-product', create_product, name='create_product'),
